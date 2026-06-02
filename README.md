@@ -1,7 +1,7 @@
 <h1 align="center">Diving Into Docker 🐳</h1>
 
 <p align="center">
-  <img src="images/diving-into-docker.png" alt="Diving Into Docker" width="600"/>
+  <img src="images/Diving-Into-Docker.png" alt="Diving Into Docker" width="600"/>
 </p>
 
 Hands-on lab documentation covering Docker fundamentals 
