@@ -38,7 +38,7 @@ is what this repo is built around.
 
 | Lab | Topic | Status |
 |---|---|---|
-| [Lab 01 — Basic Docker Commands](labs/lab-01-basic-docker-commands.md) | docker run, docker ps, docker stop, docker rm, docker images | 🔨 In Progress  |
+| [Lab 01 — Basic Docker Commands](labs/lab-01-basic-docker-commands.md) | docker run, docker ps, docker stop, docker rm, docker images | ✅ Complete  |
 | [Lab 02 — Docker Run](labs/lab-02-docker-run.md) | Port mapping, volume mounting, detached mode, interactive mode | 🔨 In Progress |
 | [Lab 03 — Docker Images](labs/lab-03-docker-images.md) | Dockerfile, building images, tagging, layering, docker build | 🔨 In Progress |
 | [Lab 04 — Environment Variables](labs/lab-04-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | 📋 Planned |
