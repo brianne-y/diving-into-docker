@@ -159,9 +159,9 @@ Running `docker ps` showed four port mappings and I counted three unique numbers
 
 ---
 
-**I put `--name` after the image name and the container did not get named correctly**
+**I put `--name` after the image name and forgot `-d`, and the container did not get named correctly**
 
-I ran `docker run -p 38282:8080 kodekloud/simple-webapp:blue --name blue-app` and all three checks failed. Anything after the image name gets treated as a command to run inside the container, not a flag for Docker. The container started with a random name instead of `blue-app`. The correct command puts all flags before the image name:
+I ran `docker run -p 38282:8080 kodekloud/simple-webapp:blue --name blue-app` and all three checks failed. Two things went wrong. First, `--name blue-app` came after the image name, so Docker treated it as a command to run inside the container rather than a naming instruction. The container started with a random name instead of `blue-app`. Second, I forgot the `-d` flag, which meant the container ran in the foreground and locked my terminal instead of running in the background. The correct command puts all flags before the image name:
 
     docker run -d -p 38282:8080 --name blue-app kodekloud/simple-webapp:blue
 
