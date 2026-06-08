@@ -1,5 +1,4 @@
 <h1 align="center">Diving Into Docker 🐳</h1>
-
 <p align="center">
   <img src="images/Diving-Into-Docker.png" alt="Diving Into Docker" width="600"/>
 </p>
@@ -20,17 +19,17 @@ is what this repo is built around.
 
 ## What's Covered
 
-- Core Docker concepts: images, containers, and the 
-  relationship between them
+- Core Docker concepts: images, containers, and the relationship between them
 - Running and managing containers with docker run
 - Building and managing Docker images
-- Environment variables and runtime configuration
 - CMD vs ENTRYPOINT and controlling container behavior
+- Environment variables and runtime configuration
 - Docker Compose for multi-container applications
+- Docker engine internals: namespaces and cgroups
 - Docker storage: volumes and persistent data
-- Docker registries and pushing images to Amazon ECR
 - Docker networking: bridge, host, and overlay networks
-- Container orchestration concepts: Kubernetes and ECS
+- Docker registries and pushing images to Amazon ECR
+- Container orchestration concepts: Docker Swarm, Kubernetes, and ECS
 
 ---
 
@@ -38,16 +37,16 @@ is what this repo is built around.
 
 | Lab | Topic | Status |
 |---|---|---|
-| [Lab 01 — Basic Docker Commands](labs/lab-01-basic-docker-commands.md) | docker run, docker ps, docker stop, docker rm, docker images | ✅ Complete  |
-| [Lab 02 — Docker Run](labs/lab-02-docker-run.md) | Image tags, Port mapping, volume mounting, interactive mode | ✅ Complete |
-| [Lab 03 — Docker Images](labs/lab-03-docker-images.md) | Dockerfile, building images, tagging, layering, docker build | ✅ Complete |
-| [Lab 04 — Environment Variables](labs/lab-04-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | 📋 Planned |
-| [Lab 05 — CMD vs ENTRYPOINT](labs/lab-05-cmd-vs-entrypoint.md) | Default commands, overriding behavior, combining CMD and ENTRYPOINT | 📋 Planned |
+| [Lab 01 — Basic Docker Commands](labs/lab-01-basic-docker-commands.md) | docker run, docker ps, docker stop, docker rm, docker images | ✅ Complete |
+| [Lab 02 — Docker Run](labs/lab-02-docker-run.md) | Image tags, port mapping, volume mounting, interactive mode | ✅ Complete |
+| [Lab 03 — Docker Images](labs/lab-03-docker-images.md) | Dockerfile, building images, layered architecture, BuildKit | ✅ Complete |
+| [Lab 04 — CMD vs Entrypoint](labs/lab-04-cmd-vs-entrypoint.md) | Default commands, overriding behavior, combining CMD and ENTRYPOINT | 🔨 In Progress |
+| [Lab 05 — Environment Variables](labs/lab-05-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | 📋 Planned |
 | [Lab 06 — Docker Compose](labs/lab-06-docker-compose.md) | Multi-container apps, docker-compose.yml, networking between services | 📋 Planned |
-| [Lab 07 — Docker Storage](labs/lab-07-docker-storage.md) | Volumes, bind mounts, persistent data, storage drivers | 📋 Planned |
-| [Lab 08 — Docker Registry](labs/lab-08-docker-registry.md) | Docker Hub, Amazon ECR, pushing and pulling images, authentication | 📋 Planned |
-| [Lab 09 — Docker Networking](labs/lab-09-docker-networking.md) | Bridge networks, host networking, container DNS, network isolation | 📋 Planned |
-| [Lab 10 — Container Orchestration](labs/lab-10-container-orchestration.md) | Kubernetes fundamentals, ECS and EKS on AWS, scaling containers | 📋 Planned |
+| [Lab 07 — Docker Engine and Storage](labs/lab-07-docker-engine-and-storage.md) | Namespaces, cgroups, volumes, bind mounts, persistent data, storage drivers | 📋 Planned |
+| [Lab 08 — Docker Networking](labs/lab-08-docker-networking.md) | Bridge networks, host networking, container DNS, network isolation | 📋 Planned |
+| [Lab 09 — Docker Registry](labs/lab-09-docker-registry.md) | Docker Hub, Amazon ECR, pushing and pulling images, authentication | 📋 Planned |
+| [Lab 10 — Container Orchestration](labs/lab-10-container-orchestration.md) | Docker Swarm, Kubernetes fundamentals, container scaling | 📋 Planned |
 
 ---
 
