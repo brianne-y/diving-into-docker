@@ -40,9 +40,9 @@ is what this repo is built around.
 | [Lab 01 — Basic Docker Commands](labs/lab-01-basic-docker-commands.md) | docker run, docker ps, docker stop, docker rm, docker images | ✅ Complete |
 | [Lab 02 — Docker Run](labs/lab-02-docker-run.md) | Image tags, port mapping, volume mounting, interactive mode | ✅ Complete |
 | [Lab 03 — Docker Images](labs/lab-03-docker-images.md) | Dockerfile, building images, layered architecture, BuildKit | ✅ Complete |
-| [Lab 04 — CMD vs Entrypoint](labs/lab-04-cmd-vs-entrypoint.md) | Default commands, overriding behavior, combining CMD and ENTRYPOINT | 🔨 In Progress |
-| [Lab 05 — Environment Variables](labs/lab-05-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | 📋 Planned |
-| [Lab 06 — Docker Compose](labs/lab-06-docker-compose.md) | Multi-container apps, docker-compose.yml, networking between services | 📋 Planned |
+| [Lab 04 — CMD vs Entrypoint](labs/lab-04-cmd-vs-entrypoint.md) | Default commands, overriding behavior, combining CMD and ENTRYPOINT | ✅ Complete |
+| [Lab 05 — Environment Variables](labs/lab-05-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | ✅ Complete |
+| [Lab 06 — Docker Compose](labs/lab-06-docker-compose.md) | Multi-container apps, docker-compose.yml, networking between services | 🔨 In Progress |
 | [Lab 07 — Docker Engine and Storage](labs/lab-07-docker-engine-and-storage.md) | Namespaces, cgroups, volumes, bind mounts, persistent data, storage drivers | 📋 Planned |
 | [Lab 08 — Docker Networking](labs/lab-08-docker-networking.md) | Bridge networks, host networking, container DNS, network isolation | 📋 Planned |
 | [Lab 09 — Docker Registry](labs/lab-09-docker-registry.md) | Docker Hub, Amazon ECR, pushing and pulling images, authentication | 📋 Planned |
