@@ -62,7 +62,13 @@ Look for the `Env` field inside the config section. It lists every environment v
 
 ## Troubleshooting
 
-*To be updated after completing the lab.*
+**I got a conflict error when trying to name a container that already existed**
+
+I ran the command correctly but got an error saying the container name `blue-app` was already in use. A container with that name was still sitting on the host from an earlier question in the lab. Docker does not allow two containers to share the same name regardless of whether the existing one is running or stopped. I force removed it with `docker rm -f blue-app` and re-ran the original command successfully.
+
+    docker rm -f blue-app
+
+![error: container name conflict](../screenshots/lab05-error-container-name-conflict.png)
 
 ---
 
