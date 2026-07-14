@@ -43,7 +43,7 @@ is what this repo is built around.
 | [Lab 04 — CMD vs Entrypoint](labs/lab-04-cmd-vs-entrypoint.md) | Default commands, overriding behavior, combining CMD and ENTRYPOINT | ✅ Complete |
 | [Lab 05 — Environment Variables](labs/lab-05-environment-variables.md) | Passing env vars at runtime, inspecting containers, config management | ✅ Complete |
 | [Lab 06 — Docker Compose](labs/lab-06-docker-compose.md) | Multi-container apps, docker-compose.yml, networking between services | 🔨 In Progress |
-| [Lab 07 — Docker Engine and Storage](labs/lab-07-docker-engine-and-storage.md) | Namespaces, cgroups, volumes, bind mounts, persistent data, storage drivers | 📋 Planned |
+| [Lab 07 — Docker Engine and Storage](labs/lab-07-docker-engine-and-storage.md) | Namespaces, cgroups, volumes, bind mounts, persistent data, storage drivers | 🔨 In Progress |
 | [Lab 08 — Docker Networking](labs/lab-08-docker-networking.md) | Bridge networks, host networking, container DNS, network isolation | 📋 Planned |
 | [Lab 09 — Docker Registry](labs/lab-09-docker-registry.md) | Docker Hub, Amazon ECR, pushing and pulling images, authentication | 📋 Planned |
 | [Lab 10 — Container Orchestration](labs/lab-10-container-orchestration.md) | Docker Swarm, Kubernetes fundamentals, container scaling | 📋 Planned |
